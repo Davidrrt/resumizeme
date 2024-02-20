@@ -10,7 +10,9 @@ const Banner = () => {
       <Box className="children-container">
         <Box className="icon" component={"img"} src={iconBanner} />
         <Box>
-          <Typography variant="h5">Premium Account</Typography>
+          <Typography variant="h5" className="bold">
+            Premium Account
+          </Typography>
           <Typography className="text-review bad">
             You have premium account, granting you access to all the remarkable
             features offered by ResumeDone. With this privilege, you can indulge

@@ -1,5 +1,6 @@
 import { Box, Stack } from "@mui/material";
 import Banner from "src/components/banner";
+import PersonalInfos from "src/components/personalInfos";
 import SideBar from "src/components/sideBar";
 import useStyles from "./styles";
 
@@ -10,6 +11,7 @@ const UserInfos = () => {
       <SideBar />
       <Box className="side-container">
         <Banner />
+        <PersonalInfos />
       </Box>
     </Stack>
   );
